@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1B1726;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../imagenes/bg.jpeg");
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #FF5A2C;
+    font-size: 45px;
+    font-weight: 800;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 45px;
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: #FF5A2C;
+}
+
+.header-content{
+    display: flex;
+}
+.header-txt{
+    flex-basis: 50%;
+}
+.header-txt h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 40px;
+}
+.header-txt p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.butons{
+    display: flex;
+}
+.btn-1, .btn-2{
+    padding: 12px 40px;
+    border: 2px solid #FF5A2C;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: white;
+}
+
+.btn-1:hover {
+    background-color: #FF5A2C;
+}
+
+.popular{
+    padding: 30px 30px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.popular-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.popular-content img{
+    width: 150px;
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.product-1{
+    background-color: #2A223A;
+}
+.product-txt{
+    padding: 50px 30px;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom:60px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    font-size: 20px;
+    color: #FF5A2C;
+}
+
+.btn-2{
+    padding: 5px 25px;
+    background-color: #FF5A2C;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+.link ul {
+    display: flex;
+}
+
+.link ul li > a{
+    font-size: 25px;
+    color: black;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover{
+    color: #FF5A2C;
+}
+
+
